@@ -1,0 +1,249 @@
+.hotels {
+    .hotel-item {
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+        margin-bottom: $gutter * 2;
+        .hotel-header {
+            padding: 10px 15px;
+            background-color: $gray-color;
+            border-radius: $border-radius;
+            .hotel-title {
+                a {
+                    color: $primary-color;
+                    h2 {
+                        font-size: $size-18;
+                        font-weight: $weight-600;
+                    }
+                }
+                @include max($sm){
+                    a {
+                        h2 {
+                            font-size: $size-14;
+                        }
+                    }
+                }
+            }
+            .hotel-score {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+                .hotel-score-text {
+                    .hotel-score-title {
+                        color: $green-color;
+                        font-size: $size-14;
+                        font-weight: $weight-600;
+                        text-align: right;
+                    }
+                    .hotel-score-sub-title {
+                        a {
+                            color: $primary-color;
+                        }
+                    }
+                }
+                .hotel-score-point {
+                    @include center;
+                    width: 35px;
+                    height: 35px;
+                    background-color: $green-color;
+                    color: $white-color;
+                    font-size: $size-18;
+                    font-weight: $weight-600;
+                    border-radius: $border-radius;
+                    margin-left: 10px;
+                }
+                @include max($sm) {
+                    .hotel-score-text {
+                        display: none;
+                    }
+                    .hotel-score-point {
+                        @include center;
+                        width: 26px;
+                        height: 26px;
+                        font-size: $size-14;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        .hotel-content {
+            .hotel-image-container {
+                position: relative;
+                .hotel-image {
+                    a {
+                        display: block;
+                        overflow: hidden;
+                        img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            transition: $transition;
+                        }
+                        &:hover {
+                            img {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+                .hotel-favorites {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    z-index: 1;
+                    a {
+                        @include center;
+                        width: 34px;
+                        height: 34px;
+                        border-radius: 100%;
+                        background-color: $white-color;
+                        border: 2px solid $blue-color;
+                        color: $blue-color;
+                        font-size: $size-14;
+                        transition: $transition;
+                        &:hover {
+                            background-color: $blue-color;
+                            color: $white-color;
+                        }
+                    }
+                }
+                .hotel-badge {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 10px;
+                    z-index: 1;
+                    .hotel-badge-item {
+                        color: $white-color;
+                        padding: 3px 5px;
+                        font-size: $size-10;
+                        border-radius: $border-radius;
+                        span {
+                            font-weight: $weight-500;
+                        }
+                        &.badge-one {
+                            background-color: $orange-color;
+                        }
+                        &.badge-two {
+                            background-color: $green-color;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            .hotel-information {
+                padding: 10px 0;
+                @include max($md){
+                    padding: $gutter;
+                }
+                @include max($sm){
+                    margin-bottom: $gutter;
+                }
+                .hotel-location {
+                    font-size: $size-12;
+                    margin-bottom: 10px;
+                    i {
+                        margin-right: 5px;
+                    }
+                    strong {
+                        font-weight: $weight-500;
+                    }
+                }
+                .hotel-campaign {
+                    color: $orange-color;
+                    font-size: $size-14;
+                    font-weight: $weight-500;
+                    margin-bottom: 10px;
+                }
+                .hotel-free-cancel {
+                    font-size: $size-14;
+                    margin-bottom: 10px;
+                    i {
+                        margin-right: 5px;
+                    }
+                    span {
+                        font-weight: $weight-500;
+                    }
+                }
+                .hotel-features {
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        margin: 0 -10px;
+                        li {
+                            padding: 5px 10px;
+                            flex: 0 0 calc(100% / 3);
+                            transition: $transition;
+                            &:hover {
+                                background-color: $gray-color;
+                            }
+                        }
+                        @include max($md) {
+                            li {
+                                flex: 0 0 50%;
+                            }
+                        }
+                    }
+                }
+            }
+            .hotel-price-container {
+                @include center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                text-align: center;
+                height: 100%;
+                padding: 0 30px;
+                border-left: 1px dashed $border-color;
+                @include max($sm){
+                    border-left: none;
+                    border-top: 1px dashed $border-color;
+                    padding: $gutter;
+                }
+                .hotel-accommodation {
+                    font-size: $size-14;
+                    font-weight: $weight-600;
+                    margin-bottom: 5px;
+                }
+                .hotel-price {
+                    margin-bottom: 5px;
+                    &-old {
+                        span {
+                            font-size: $size-14;
+                            font-weight: $weight-500;
+                            text-decoration: line-through;
+                        }
+                    }
+                    &-new {
+                        strong {
+                            font-size: $size-18;
+                            font-weight: $weight-700;
+                        }
+                    }
+                }
+                .hotel-price-description {
+                    margin-bottom: 10px;
+                    p {
+                        font-weight: $weight-600;
+                    }
+                }
+                .hotel-detail {
+                    width: 100%;
+                    a {
+                        @include center;
+                        width: 100%;
+                        height: 35px;
+                        background-color: $primary-color;
+                        color: $white-color;
+                        font-size: $size-14;
+                        border-radius: $border-radius;
+                        transition: $transition;
+                        &:hover {
+                            background-color: darken($primary-color, 5%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

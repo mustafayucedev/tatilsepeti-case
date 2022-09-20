@@ -1,0 +1,19 @@
+footer {
+    margin-top: $gutter * 2;
+    ul {
+        background-color: $gray-color;
+        padding: 10px;
+        @include center;
+        gap: 15px;
+        li {
+            a {
+                color: $primary-color;
+                text-decoration: underline;
+                transition: $transition;
+                &:hover {
+                    color: $green-color;
+                }
+            }
+        }
+    }
+}

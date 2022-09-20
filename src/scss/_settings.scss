@@ -1,0 +1,48 @@
+body {
+	position: relative;
+	font-size: 12px;
+	font-family: $font-family;
+	background-color: #ffffff;
+	color: $primary-color;
+	@include max($md) {
+		&[class$="-active"] {
+			cursor: pointer;
+		}
+	}
+}
+
+.container {
+	padding-right: $gutter;
+	padding-left: $gutter;
+	@include min($lg) {
+		max-width: 1070px + $gutter * 2;
+    }
+}
+
+.row {
+	margin-right: -$gutter;
+	margin-left: -$gutter;
+	.col,
+	[class*="col-"] {
+		padding-right: $gutter;
+		padding-left: $gutter;
+    }
+    @include max($sm) {
+        margin-right: -$gutter / 2;
+        margin-left: -$gutter / 2;
+        .col,
+        [class*="col-"] {
+            padding-right: $gutter / 2;
+            padding-left: $gutter / 2;
+        }
+    }
+	&.no-gutters {
+		margin-right: 0;
+		margin-left: 0;
+		> .col,
+		> [class*="col-"] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}

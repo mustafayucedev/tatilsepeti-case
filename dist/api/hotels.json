@@ -1,0 +1,715 @@
+[
+    {
+      "hotelPropertyList": [
+        {
+          "code": "cocukdostu",
+          "codeName": "Çocuk Dostu",
+          "name": "Çocuk Dostu",
+          "description": "Çocuk Dostu"
+        },
+        {
+          "code": "denizesifir",
+          "codeName": "Denize Sıfır",
+          "name": "Denize Sıfır",
+          "description": "Denize Sıfır"
+        },
+        {
+          "code": "sukaydiragi",
+          "codeName": "Su Kaydırağı",
+          "name": "3 Su Kaydırağı",
+          "description": "3 adet su kaydırağı bulunmaktadır"
+        },
+        {
+          "code": "miniclub",
+          "codeName": "Mini Club",
+          "name": "Mini Club",
+          "description": "Ücretsiz Mini Club"
+        },
+        {
+          "code": "restoran",
+          "codeName": "Restoran",
+          "name": "Alakart Restoran",
+          "description": "Alakart restoran bulunmaktadır"
+        },
+        {
+          "code": "spavesaglik",
+          "codeName": "Spa ve Sağlık",
+          "name": "Spa ve Sağlık",
+          "description": "Spa ve Sağlık Merkezi"
+        }
+      ],
+      "hotelThemeList": [
+        {
+          "code": "cocukluaile",
+          "text": "Çocuklu Aile",
+          "count": 0
+        },
+        {
+          "code": "romantik",
+          "text": "Romantik",
+          "count": 0
+        },
+        {
+          "code": "engellidostu",
+          "text": "Engelli Dostu",
+          "count": 0
+        },
+        {
+          "code": "mavibayrakli",
+          "text": "Mavi Bayraklı",
+          "count": 0
+        },
+        {
+          "code": "spa",
+          "text": "Spa",
+          "count": 0
+        },
+        {
+          "code": "sukaydiragi",
+          "text": "Su Kaydırağı",
+          "count": 0
+        },
+        {
+          "code": "balayi",
+          "text": "Balayı",
+          "count": 0
+        },
+        {
+          "code": "resort",
+          "text": "Resort",
+          "count": 0
+        },
+        {
+          "code": "denizesifir",
+          "text": "Denize Sıfır",
+          "count": 0
+        },
+        {
+          "code": "",
+          "text": "",
+          "count": 0
+        },
+        {
+          "code": "sagliksertifikali",
+          "text": "Sağlık Sertifikalı",
+          "count": 0
+        },
+        {
+          "code": "salginhastalik",
+          "text": "Salgın Hastalık",
+          "count": 0
+        }
+      ],
+      "hotelId": 1346,
+      "hotelName": "İncekum Beach Resort",
+      "productType": 2,
+      "star": 5,
+      "class": "Otel",
+      "customerScore": 8,
+      "reviewCount": 34,
+      "customersPointText": "Çok iyi",
+      "customersPointCssName": "score very-good",
+      "areaName": "Antalya",
+      "subAreaName": "Alanya",
+      "subAreaDetailName": "İncekum",
+      "categoryNo": 1,
+      "campaignPromoList": [],
+      "campaignName": "Son Dakika Fırsatı %38 İndirim + 12 Taksit",
+      "galaCampaign": null,
+      "photoPath": "https://tatilsepeti.cubecdn.net/Files/Images/Tesis/01346/450x300/tsr01346637153938935602663.jpg",
+      "currency": "TL",
+      "longitude": 31.726626,
+      "latitude": 36.639446,
+      "price": 550,
+      "discountPrice": 341,
+      "isRecommend": true,
+      "isSponsor": false,
+      "routing": "",
+      "routingOrder": 11,
+      "routingClass": "default",
+      "smartOpportunity": "",
+      "status": "Sorunuz...",
+      "statusTypeId": 1,
+      "membershipCategoryNo": 10,
+      "hotelApproval": "Onaylandı",
+      "hotelSearchCountOrder": 61632,
+      "accommodation": "Herşey Dahil",
+      "magicOpportunity": false,
+      "discountRate": 38,
+      "showBankCampaign": true,
+      "isFavourite": false,
+      "hasFlyingPackage": false,
+      "countryCode": null,
+      "url": "/incekum-beach-resort",
+      "hasCovidMeasures": true,
+      "hasMinistryOfHealthCertificate": true
+    },
+    {
+      "hotelPropertyList": [
+        {
+          "code": "aquapark",
+          "codeName": "Aquapark",
+          "name": "Aquapark",
+          "description": "Aquapark"
+        },
+        {
+          "code": "denizesifir",
+          "codeName": "Denize Sıfır",
+          "name": "Denize Sıfır",
+          "description": "Denize Sıfır"
+        },
+        {
+          "code": "miniclub",
+          "codeName": "Mini Club",
+          "name": "Mini Club",
+          "description": "Ücretli Mini Club"
+        },
+        {
+          "code": "restoran",
+          "codeName": "Restoran",
+          "name": "Alakart Restoran",
+          "description": "4 adet Alakart restoran bulunmaktadır"
+        },
+        {
+          "code": "spavesaglik",
+          "codeName": "Spa ve Sağlık",
+          "name": "Spa ve Sağlık",
+          "description": "Spa ve Sağlık Merkezi"
+        },
+        {
+          "code": "iskele",
+          "codeName": "İskele",
+          "name": "İskele",
+          "description": "İskele"
+        }
+      ],
+      "hotelThemeList": [
+        {
+          "code": "deluxe",
+          "text": "Deluxe",
+          "count": 0
+        },
+        {
+          "code": "cocukluaile",
+          "text": "Çocuklu Aile",
+          "count": 0
+        },
+        {
+          "code": "romantik",
+          "text": "Romantik",
+          "count": 0
+        },
+        {
+          "code": "balayi",
+          "text": "Balayı",
+          "count": 0
+        },
+        {
+          "code": "aquapark",
+          "text": "Aquapark",
+          "count": 0
+        },
+        {
+          "code": "mavibayrakli",
+          "text": "Mavi Bayraklı",
+          "count": 0
+        },
+        {
+          "code": "sukaydiragi",
+          "text": "Su Kaydırağı",
+          "count": 0
+        },
+        {
+          "code": "resort",
+          "text": "Resort",
+          "count": 0
+        },
+        {
+          "code": "bebekdostu",
+          "text": "Bebek Dostu",
+          "count": 0
+        },
+        {
+          "code": "denizesifir",
+          "text": "Denize Sıfır",
+          "count": 0
+        },
+        {
+          "code": "kumplajli",
+          "text": "Kum Plajlı",
+          "count": 0
+        },
+        {
+          "code": "cevreyeduyarlitesis",
+          "text": "Çevreye Duyarlı Tesis",
+          "count": 0
+        },
+        {
+          "code": "sagliksertifikali",
+          "text": "Sağlık Sertifikalı",
+          "count": 0
+        },
+        {
+          "code": "salginhastalik",
+          "text": "Salgın Hastalık",
+          "count": 0
+        }
+      ],
+      "hotelId": 1540,
+      "hotelName": "Limak Lara De Luxe Otel",
+      "productType": 2,
+      "star": 5,
+      "class": "Otel",
+      "customerScore": 9.1,
+      "reviewCount": 25,
+      "customersPointText": "Harika",
+      "customersPointCssName": "score wonderful",
+      "areaName": "Antalya",
+      "subAreaName": "Lara",
+      "subAreaDetailName": null,
+      "categoryNo": 1,
+      "campaignPromoList": [],
+      "campaignName": "Son Dakika Fırsatı %38 İndirim + 12 Taksit",
+      "galaCampaign": null,
+      "photoPath": "https://tatilsepeti.cubecdn.net/Files/Images/Tesis/01540/450x300/tsr01540637249690328049748.jpg",
+      "currency": "TL",
+      "longitude": 30.880814,
+      "latitude": 36.856408,
+      "price": 985,
+      "discountPrice": 610.7,
+      "isRecommend": true,
+      "isSponsor": false,
+      "routing": "",
+      "routingOrder": 11,
+      "routingClass": "default",
+      "smartOpportunity": "",
+      "status": "Sorunuz...",
+      "statusTypeId": 1,
+      "membershipCategoryNo": 10,
+      "hotelApproval": "Onaylandı",
+      "hotelSearchCountOrder": 61940,
+      "accommodation": "Ultra Herşey Dahil",
+      "magicOpportunity": false,
+      "discountRate": 38,
+      "showBankCampaign": true,
+      "isFavourite": false,
+      "hasFlyingPackage": false,
+      "countryCode": null,
+      "url": "/limak-lara-de-luxe-otel",
+      "hasCovidMeasures": true,
+      "hasMinistryOfHealthCertificate": true
+    },
+    {
+      "hotelPropertyList": [
+        {
+          "code": "aquapark",
+          "codeName": "Aquapark",
+          "name": "Aquapark",
+          "description": "Aquapark"
+        },
+        {
+          "code": "denizesifir",
+          "codeName": "Denize Sıfır",
+          "name": "Denize Sıfır",
+          "description": "Denize Sıfır"
+        },
+        {
+          "code": "miniclub",
+          "codeName": "Mini Club",
+          "name": "Mini Club",
+          "description": "Ücretsiz Mini Club"
+        },
+        {
+          "code": "restoran",
+          "codeName": "Restoran",
+          "name": "Alakart Restoran",
+          "description": "5 adet Alakart restoran bulunmaktadır"
+        },
+        {
+          "code": "spavesaglik",
+          "codeName": "Spa ve Sağlık",
+          "name": "Spa ve Sağlık",
+          "description": "Spa ve Sağlık Merkezi"
+        },
+        {
+          "code": "animasyon",
+          "codeName": "Animasyon",
+          "name": "Animasyon",
+          "description": "Animasyon"
+        }
+      ],
+      "hotelThemeList": [
+        {
+          "code": "cocukluaile",
+          "text": "Çocuklu Aile",
+          "count": 0
+        },
+        {
+          "code": "genc",
+          "text": "Genç",
+          "count": 0
+        },
+        {
+          "code": "romantik",
+          "text": "Romantik",
+          "count": 0
+        },
+        {
+          "code": "mavibayrakli",
+          "text": "Mavi Bayraklı",
+          "count": 0
+        },
+        {
+          "code": "spa",
+          "text": "Spa",
+          "count": 0
+        },
+        {
+          "code": "aquapark",
+          "text": "Aquapark",
+          "count": 0
+        },
+        {
+          "code": "sukaydiragi",
+          "text": "Su Kaydırağı",
+          "count": 0
+        },
+        {
+          "code": "balayi",
+          "text": "Balayı",
+          "count": 0
+        },
+        {
+          "code": "deluxe",
+          "text": "Deluxe",
+          "count": 0
+        },
+        {
+          "code": "resort",
+          "text": "Resort",
+          "count": 0
+        },
+        {
+          "code": "bebekdostu",
+          "text": "Bebek Dostu",
+          "count": 0
+        },
+        {
+          "code": "kumplajli",
+          "text": "Kum Plajlı",
+          "count": 0
+        },
+        {
+          "code": "cevreyeduyarlitesis",
+          "text": "Çevreye Duyarlı Tesis",
+          "count": 0
+        },
+        {
+          "code": "salginhastalik",
+          "text": "Salgın Hastalık",
+          "count": 0
+        },
+        {
+          "code": "sagliksertifikali",
+          "text": "Sağlık Sertifikalı",
+          "count": 0
+        }
+      ],
+      "hotelId": 2958,
+      "hotelName": "Crystal Palace Luxury Resort Spa",
+      "productType": 2,
+      "star": 5,
+      "class": "Otel",
+      "customerScore": 8.4,
+      "reviewCount": 35,
+      "customersPointText": "Çok iyi",
+      "customersPointCssName": "score very-good",
+      "areaName": "Antalya",
+      "subAreaName": "Side",
+      "subAreaDetailName": "Çolaklı",
+      "categoryNo": 1,
+      "campaignPromoList": [],
+      "campaignName": "Son Dakika Fırsatı %10 İndirim + 15 Taksit",
+      "galaCampaign": null,
+      "photoPath": "https://tatilsepeti.cubecdn.net/Files/Images/Tesis/02958/450x300/tsr02958637249790246829123.jpg",
+      "currency": "TL",
+      "longitude": 31.296902,
+      "latitude": 36.818655,
+      "price": 529,
+      "discountPrice": 476.1,
+      "isRecommend": true,
+      "isSponsor": false,
+      "routing": "",
+      "routingOrder": 11,
+      "routingClass": "default",
+      "smartOpportunity": "",
+      "status": "Sorunuz...",
+      "statusTypeId": 1,
+      "membershipCategoryNo": 10,
+      "hotelApproval": "Onaylandı",
+      "hotelSearchCountOrder": 62045,
+      "accommodation": "Ultimate Her Şey Dahil",
+      "magicOpportunity": false,
+      "discountRate": 10,
+      "showBankCampaign": true,
+      "isFavourite": false,
+      "hasFlyingPackage": false,
+      "countryCode": null,
+      "url": "/crystal-palace-luxury-resort-spa",
+      "hasCovidMeasures": true,
+      "hasMinistryOfHealthCertificate": true
+    },
+    {
+      "hotelPropertyList": [
+        {
+          "code": "aquapark",
+          "codeName": "Aquapark",
+          "name": "Aquapark",
+          "description": "Aquapark"
+        },
+        {
+          "code": "miniclub",
+          "codeName": "Mini Club",
+          "name": "Mini Club",
+          "description": "Ücretsiz Mini Club"
+        },
+        {
+          "code": "restoran",
+          "codeName": "Restoran",
+          "name": "Alakart Restoran",
+          "description": "Alakart restoran bulunmaktadır"
+        },
+        {
+          "code": "spavesaglik",
+          "codeName": "Spa ve Sağlık",
+          "name": "Spa ve Sağlık",
+          "description": "Spa ve Sağlık Merkezi"
+        },
+        {
+          "code": "animasyon",
+          "codeName": "Animasyon",
+          "name": "Animasyon",
+          "description": "Animasyon"
+        }
+      ],
+      "hotelThemeList": [
+        {
+          "code": "sukaydiragi",
+          "text": "Su Kaydırağı",
+          "count": 0
+        },
+        {
+          "code": "aquapark",
+          "text": "Aquapark",
+          "count": 0
+        },
+        {
+          "code": "resort",
+          "text": "Resort",
+          "count": 0
+        },
+        {
+          "code": "bebekdostu",
+          "text": "Bebek Dostu",
+          "count": 0
+        },
+        {
+          "code": "kumplajli",
+          "text": "Kum Plajlı",
+          "count": 0
+        },
+        {
+          "code": "cocukluaile",
+          "text": "Çocuklu Aile",
+          "count": 0
+        },
+        {
+          "code": "",
+          "text": "",
+          "count": 0
+        },
+        {
+          "code": "sagliksertifikali",
+          "text": "Sağlık Sertifikalı",
+          "count": 0
+        },
+        {
+          "code": "salginhastalik",
+          "text": "Salgın Hastalık",
+          "count": 0
+        }
+      ],
+      "hotelId": 4269,
+      "hotelName": "Side Premium Hotel",
+      "productType": 2,
+      "star": 5,
+      "class": "Otel",
+      "customerScore": 8.9,
+      "reviewCount": 34,
+      "customersPointText": "Harika",
+      "customersPointCssName": "score wonderful",
+      "areaName": "Antalya",
+      "subAreaName": "Side",
+      "subAreaDetailName": "Evrenseki",
+      "categoryNo": 1,
+      "campaignPromoList": [],
+      "campaignName": "Son Dakika Fırsatı %42 İndirim + 9 Taksit",
+      "galaCampaign": null,
+      "photoPath": "https://tatilsepeti.cubecdn.net/Files/Images/Tesis/04269/450x300/tsr04269637249818074097992.jpg",
+      "currency": "TL",
+      "longitude": 31.338587,
+      "latitude": 36.810457,
+      "price": 580,
+      "discountPrice": 336.40000000000003,
+      "isRecommend": true,
+      "isSponsor": false,
+      "routing": "",
+      "routingOrder": 11,
+      "routingClass": "default",
+      "smartOpportunity": "",
+      "status": "Sorunuz...",
+      "statusTypeId": 1,
+      "membershipCategoryNo": 10,
+      "hotelApproval": "Onaylandı",
+      "hotelSearchCountOrder": 62143,
+      "accommodation": "Ultra Herşey Dahil",
+      "magicOpportunity": false,
+      "discountRate": 42,
+      "showBankCampaign": true,
+      "isFavourite": false,
+      "hasFlyingPackage": false,
+      "countryCode": null,
+      "url": "/side-premium-hotel",
+      "hasCovidMeasures": true,
+      "hasMinistryOfHealthCertificate": true
+    },
+    {
+      "hotelPropertyList": [
+        {
+          "code": "aquapark",
+          "codeName": "Aquapark",
+          "name": "Aquapark",
+          "description": "Aquapark"
+        },
+        {
+          "code": "denizesifir",
+          "codeName": "Denize Sıfır",
+          "name": "Denize Sıfır",
+          "description": "Denize Sıfır"
+        },
+        {
+          "code": "miniclub",
+          "codeName": "Mini Club",
+          "name": "Mini Club",
+          "description": "Ücretsiz Mini Club"
+        },
+        {
+          "code": "restoran",
+          "codeName": "Restoran",
+          "name": "Alakart Restoran",
+          "description": "Alakart restoran bulunmaktadır"
+        },
+        {
+          "code": "animasyon",
+          "codeName": "Animasyon",
+          "name": "Animasyon",
+          "description": "Animasyon"
+        }
+      ],
+      "hotelThemeList": [
+        {
+          "code": "cocukluaile",
+          "text": "Çocuklu Aile",
+          "count": 0
+        },
+        {
+          "code": "aquapark",
+          "text": "Aquapark",
+          "count": 0
+        },
+        {
+          "code": "tatilkoyu",
+          "text": "Tatil Köyü",
+          "count": 0
+        },
+        {
+          "code": "bebekdostu",
+          "text": "Bebek Dostu",
+          "count": 0
+        },
+        {
+          "code": "denizesifir",
+          "text": "Denize Sıfır",
+          "count": 0
+        },
+        {
+          "code": "kumplajli",
+          "text": "Kum Plajlı",
+          "count": 0
+        },
+        {
+          "code": "sukaydiragi",
+          "text": "Su Kaydırağı",
+          "count": 0
+        },
+        {
+          "code": "resort",
+          "text": "Resort",
+          "count": 0
+        },
+        {
+          "code": "sagliksertifikali",
+          "text": "Sağlık Sertifikalı",
+          "count": 0
+        },
+        {
+          "code": "salginhastalik",
+          "text": "Salgın Hastalık",
+          "count": 0
+        }
+      ],
+      "hotelId": 351,
+      "hotelName": "Gypsophila Holiday Village",
+      "productType": 2,
+      "star": 5,
+      "class": "Otel",
+      "customerScore": 8.9,
+      "reviewCount": 20,
+      "customersPointText": "Harika",
+      "customersPointCssName": "score wonderful",
+      "areaName": "Antalya",
+      "subAreaName": "Alanya",
+      "subAreaDetailName": "Okurcalar",
+      "categoryNo": 1,
+      "campaignPromoList": [],
+      "campaignName": "Son Dakika Fırsatı %17 İndirim + 12 Taksit",
+      "galaCampaign": null,
+      "photoPath": "https://tatilsepeti.cubecdn.net/Files/Images/Tesis/00351/450x300/tsr00351637249835651423210.jpg",
+      "currency": "TL",
+      "longitude": 31.656343,
+      "latitude": 36.660174,
+      "price": 366.66,
+      "discountPrice": 304.3278,
+      "isRecommend": true,
+      "isSponsor": false,
+      "routing": "",
+      "routingOrder": 11,
+      "routingClass": "default",
+      "smartOpportunity": "",
+      "status": "Sorunuz...",
+      "statusTypeId": 1,
+      "membershipCategoryNo": 10,
+      "hotelApproval": "Onaylandı",
+      "hotelSearchCountOrder": 62348,
+      "accommodation": "Herşey Dahil",
+      "magicOpportunity": false,
+      "discountRate": 17,
+      "showBankCampaign": true,
+      "isFavourite": false,
+      "hasFlyingPackage": false,
+      "countryCode": null,
+      "url": "/gypsophila-holiday-village",
+      "hasCovidMeasures": true,
+      "hasMinistryOfHealthCertificate": true
+    }
+  ]

@@ -1,0 +1,16 @@
+header {
+    padding: $gutter 0;
+    border-bottom: 1px solid $border-color;
+    margin-bottom: $gutter * 2;
+    h1 {
+        font-size: $size-28;
+        font-weight: $weight-500;
+        margin-bottom: $gutter / 2;
+    }
+    span {
+        font-size: $size-14;
+        strong {
+            font-weight: $weight-700
+        }
+    }
+}

@@ -1,0 +1,23 @@
+#pagination {
+    @include center;
+    gap: 5px;
+    flex-wrap: wrap;
+    button {
+        border: none;
+        outline: none;
+        @include center;
+        width: 30px;
+        height: 30px;
+        background-color: $primary-color;
+        color: $white-color;
+        font-weight: $weight-500;
+        font-size: $size-14;
+        transition: $transition;
+        &:hover {
+            background-color: $green-color;
+        }
+        &.active {
+            background-color: $green-color;
+        }
+    }
+}
